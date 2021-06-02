@@ -14,7 +14,7 @@ def wallis(n):
             pi = * z
     pi *= 2
     return pi
-print (wallis(100000))
+print (wallis(n))
         
 
 class TestWallis(unittest.TestCase):
